@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import axios from 'axios'
 import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
 
 const AddBus = () => {
     const [data, setData] = useState({
@@ -35,7 +36,7 @@ const AddBus = () => {
 
 return (
     <div>
-
+        <Navbar/>
         <div className="container">
             <h2 align="center">ADD BUS</h2>
             <div className="row">
